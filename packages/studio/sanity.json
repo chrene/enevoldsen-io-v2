@@ -1,0 +1,46 @@
+{
+  "root": true,
+  "project": {
+    "name": "enevoldsen.io"
+  },
+  "api": {
+    "projectId": "0iosjaie",
+    "dataset": "production"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/components",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool",
+    "@sanity/dashboard",
+    "dashboard-widget-structure-menu",
+    "dashboard-widget-document-list",
+    "dashboard-widget-netlify",
+    "asset-source-thispersondoesnotexist",
+    "@sanity/vision",
+    "asset-source-unsplash",
+    "@sanity/code-input",
+    "@sanity/color-input",
+    "mux-input",
+    "@sanity/production-preview"
+  ],
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema.js"
+    },
+    {
+      "name": "part:@sanity/desk-tool/structure",
+      "path": "./deskStructure.js"
+    },
+    {
+      "implements": "part:@sanity/dashboard/config",
+      "path": "dashboardConfig.js"
+    },
+    {
+      "implements": "part:@sanity/production-preview/resolve-production-url",
+      "path": "./resolvePreviewUrl.js"
+    }
+  ]
+}
