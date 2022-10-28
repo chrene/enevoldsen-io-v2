@@ -1,5 +1,5 @@
 const fontFamilySans = [
-  "Nunito Sans",
+  "Proxima Nova",
   "-apple-system",
   "BlinkMacSystemFont",
   "Segoe UI",
