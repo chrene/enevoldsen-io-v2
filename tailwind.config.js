@@ -13,9 +13,24 @@ const fontFamilySans = [
   "sans-serif",
 ];
 
-const fontFamilySerif = ["utopia-std", "serif", " Georgia", "Cambria", "Times New Roman", "Times", "serif"];
+const fontFamilySerif = [
+  "utopia-std",
+  "serif",
+  " Georgia",
+  "Cambria",
+  "Times New Roman",
+  "Times",
+  "serif",
+];
 
-const fontFamilyMono = ["Menlo", "Monaco", "Consolas", "Liberation Mono", "Courier New", "monospace"];
+const fontFamilyMono = [
+  "Menlo",
+  "Monaco",
+  "Consolas",
+  "Liberation Mono",
+  "Courier New",
+  "monospace",
+];
 
 const colors = {
   gray: {
@@ -115,7 +130,7 @@ module.exports = {
           secondary: "#f43f5e",
           accent: "#7dd3fc",
           neutral: "#2C2C34",
-          "neutral-content": "#ffffff",
+          "neutral-content": "#FBFBFB",
           "base-100": "#f0f4f6",
           "base-200": "#f3f4f6",
           info: "#2563eb",

@@ -28,5 +28,14 @@ a {
   letter-spacing: 0.05rem;
 }
 
+.nav-link:not(:hover) {
+  transition: opacity 0.25s ease-in-out;
+}
+
+.navbar:hover .nav-link:not(:hover) {
+  opacity: 0.3;
+  transition: opacity 0.3s ease-in-out;
+}
+
 @tailwind components;
 @tailwind utilities;

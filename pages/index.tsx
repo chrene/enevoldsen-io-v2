@@ -9,9 +9,10 @@ export async function getStaticProps() {
       {
         "page": *[_id == "frontpage"][0] {
           content[]{ ..., cta { ..., landingPageRoute-> { ...,  page-> { title } } } },
-          "navMenu": navMenu->
+          "navMenu": navMenu->,
+          siteTitle
         },
-        "site": *[_id == "siteSettings"]
+        "site": *[_id == "siteSettings"][0]
       }
     `
   );

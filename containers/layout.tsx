@@ -1,18 +1,17 @@
 import React, { useEffect, useState } from "react";
-import Head from "next/head";
 import Header from "../components/header";
 import Footer from "../components/footer";
 
-const Layout = (props) => {
-  const [scrolled, setScrolled] = useState(false);
+type LayoutProps = {
+  children: React.ReactNode;
+  showNav?: boolean;
+  navMenuItems?: any;
+  textWhite?: boolean;
+  siteTitle?: string;
+};
 
-  const {
-    children,
-    showNav,
-    siteTitle,
-    navMenuItems,
-    textWhite = true,
-  } = props;
+const Layout = (props: LayoutProps) => {
+  const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -30,17 +29,19 @@ const Layout = (props) => {
   return (
     <>
       <Header
-        navMenuItems={navMenuItems}
-        siteTitle={siteTitle}
-        showNav={showNav}
+        navMenuItems={props.navMenuItems}
+        siteTitle={props.siteTitle}
+        showNav={props.showNav}
         scrolled={scrolled}
-        textWhite={textWhite}
+        textWhite={props.textWhite}
       />
 
-      <>{children}</>
-      <Footer siteTitle={siteTitle} />
+      <>{props.children}</>
+      <Footer siteTitle={props.siteTitle} />
     </>
   );
 };
+
+// Layout component that wraps header children and footer and sets scrolled state to add/remove scrolled class on body
 
 export default Layout;
