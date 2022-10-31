@@ -1,5 +1,7 @@
 import React from "react";
 import Hero from "../components/hero";
+import InfoRows from "../components/info-rows";
+import BoxGrid from "../components/box-grid";
 import Layout from "../containers/layout";
 
 const Page = (props) => {
@@ -25,9 +27,12 @@ const Page = (props) => {
         // case "pricing":
         //   el = <Pricing key={c._key} {...c} />;
         //   break;
-        // case "infoRows":
-        //   el = <InfoRows key={c._key} {...c} />;
-        // break;
+        case "infoRows":
+          el = <InfoRows key={c._key} {...c} />;
+          break;
+        case "featuredServices":
+          el = <BoxGrid key={c._key} {...c} />;
+          break;
         case "hero":
           el = <Hero key={c._key} {...c} />;
           break;
@@ -63,7 +68,15 @@ const Page = (props) => {
       textWhite={true}
       siteTitle={site.title}
     >
-      <div className="pt-24">{content}</div>
+      <div className="pt-24">
+        {content}
+        <hr />
+        <div className="container mx-auto">
+          <pre>
+            <code>{JSON.stringify(data, null, 2)}</code>
+          </pre>
+        </div>
+      </div>
     </Layout>
   );
 };

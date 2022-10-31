@@ -2,7 +2,17 @@ import React from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
 
-const CTALink = (props): JSX.Element => {
+export type CTALinkProps = {
+  title: string;
+  link?: string;
+  route?: string;
+  landingPageRoute?: any;
+  kind?: string;
+  buttonActionClass?: string;
+  linkActionClass?: string;
+};
+
+const CTALink = (props: CTALinkProps): JSX.Element => {
   const router = useRouter();
 
   const doNavigate = (target) => {
