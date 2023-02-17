@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Klaskefar",
+    "tags": ["Web Design", "SEO"],
+    "description": "Klaskefar er historien om en rapper fra København, der har skabt sig en karriere som freestyle-rapper og showmand. Jeg har udviklet en hjemmeside til Klaskefar, for at understøtte hans online tilstedeværelse.",
+    "link": "https://klaskefar.dk",
+    "image": "images/portfolio/klaskefar.jpeg"
+  },
+  {
+    "name": "Energiteknik Lolland",
+    "tags": ["Web Design", "SEO"],
+    "description": "I projektet har jeg udviklet en hjemmeside til Energiteknik Lolland. Energiteknik Lolland er en virksomhed, der tilbyder energirådgivning og energioptimering til private og erhverv.",
+    "link": "https://energitekniklolland.dk",
+    "image": "images/portfolio/energitekniklolland.jpeg"
+  },
+  {
+    "name": "Lynfaktura",
+    "tags": ["Webapp udvikling"],
+    "description": "Lynfaktura er en online faktureringstjeneste, der gør det nemt at danne PDF fakturaer til dine kunder. Lynfaktura er mest af alt udviklet til personlig brug, men nu gjort offentlig tilgængelig. Prøv den, det er gratis!",
+    "link": "https://lynfaktura.dk",
+    "image": "images/portfolio/lynfaktura.jpeg"
+  }
+]

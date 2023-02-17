@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Web design",
+    "description": "Som web designer bruger jeg mine kreative evner til at designe flotte, moderne og brugervenlige hjemmesider. Jeg er ekspert i at bruge forskellige CMS-platforme som Webflow, WordPress eller skræddersyet med NextJS / React."
+  },
+  {
+    "name": "Web Udvikling",
+    "description": "Som web udvikler skriver jeg sikker, stabil og veltestet kode. Jeg har en del erfaring med diverse frameworks, men der hvor jeg er bedst er med teknologier som NextJS, React og NestJS. Jeg har en stærk teknisk baggrund og kan opbygge komplekse web applikationer, som opfylder ethvert punkt på kravspecifikationen."
+  },
+  {
+    "name": "Web Teknisk Rådgivning",
+    "description": "Som webudvikler har jeg mange års erfaring med at bygge hjemmesider og web applikationer. Jeg kan hjælpe med at rådgive dig omkring tekniske spørgsmål såsom hosting, domæner, sikkerhed, CMS-platforme og meget mere."
+  },
+  {
+    "name": "Vedligeholdelse",
+    "description": "Som webdesigner og udvikler kan jeg også hjælpe med vedligeholdelse af din hjemmeside. Jeg kan hjælpe med opdatering af din CMS-platform, migrering af hjemmesider til nye servere, backup og sikkerhed og meget mere. Du kan stole på mig til at tage vare på din hjemmeside, så du kan koncentrere dig om at drive din virksomhed."
+  }
+]
