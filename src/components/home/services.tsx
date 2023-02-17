@@ -4,22 +4,22 @@ export default function Services() {
   return (
     <>
       <section className="bg-black relative h-fit">
-        <div className="page-padding static">
-          <div className="max-w-7xl mx-auto py-24 ">
-            <div className="grid grid-cols-12 gap-12">
-              <div className="col-span-6">
-                <div className="sticky top-10">
+        <div className="page-padding">
+          <div className="max-w-1/2 md:max-w-7xl md:mx-auto md:py-24 ">
+            <div className="flex flex-col gap-8 md:grid md:grid-cols-12 md:gap-12">
+              <div className="md:col-span-6">
+                <div className="md:sticky md:top-10 z-50">
                   <h2 className="font-extrabold text-5xl text-yellow-50 leading-snug uppercase text-yellow-50">
                     erfaring og{" "}
                     <span className="bg-brand-800">Kompetencer</span>
                   </h2>
                 </div>
               </div>
-              <div className="col-span-6">
+              <div className="md:col-span-6">
                 {services.map((service, index) => {
                   return (
                     <div
-                      className="flex items-center space-x-4 sticky top-10 bg-black"
+                      className="flex items-center space-x-4 md:sticky md:top-10 bg-black"
                       key={`${service.name}-${index}`}
                     >
                       <div className="flex-1">

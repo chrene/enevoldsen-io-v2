@@ -5,8 +5,8 @@ export default function Hero() {
     <>
       <section className="bg-yellow-50">
         <div className="page-padding">
-          <div className="max-w-xl mx-auto py-24">
-            <h1 className="font-extrabold text-7xl text-gray-800 text-center leading-tight">
+          <div className="w-full md:max-w-xl mx-auto py-8 lg:py-24">
+            <h1 className="font-extrabold text-4xl lg:text-7xl text-gray-800 text-center leading-tight">
               Web Designer og Udvikler
             </h1>
             <p className="text-center text-lg mt-8">
@@ -17,7 +17,7 @@ export default function Hero() {
               <Link href="/projekter" className="btn btn-primary btn-arrow">
                 Udvalgte projekter
               </Link>
-              <Link className="link link-primary" href="/om">
+              <Link className="link link-primary hidden lg:block" href="/om">
                 Om mig
               </Link>
             </div>
@@ -25,23 +25,23 @@ export default function Hero() {
         </div>
         <div className="relative h-[400px] max-w-full overflow-hidden">
           <div className="absolute inset-0 z-40 bg-gradient-to-b from-black/0 to-black" />
-          <div className="absolute inset-0 mx-auto max-w-4xl flex -space-x-16 py-8">
+          <div className="absolute inset-0 md:mx-auto md:max-w-4xl flex -space-x-16 py-8">
             <div
-              className="min-w-[350px] translate-y-[50px] skew-x-[-10deg] rotate-[7deg] z-30"
+              className="min-w-[200px] md:max-w-full md:min-w-[350px] translate-y-[50px] skew-x-[-10deg] rotate-[7deg] z-30"
               style={{
                 background: `url(/images/hero-image-1.jpeg) top / cover no-repeat`,
                 height: "100%",
               }}
             />
             <div
-              className="min-w-[350px] translate-y-[30px] skew-x-[-10deg] rotate-[7deg] z-20"
+              className="min-w-[200px] md:max-w-full md:min-w-[350px] translate-y-[30px] skew-x-[-10deg] rotate-[7deg] z-20"
               style={{
                 background: `url(/images/hero-image-2.jpeg) top / cover no-repeat`,
                 height: "100%",
               }}
             />
             <div
-              className="min-w-[350px] translate-y-[20px] skew-x-[-10deg] rotate-[7deg] z-10"
+              className="min-w-[200px] md:max-w-full md:min-w-[350px] translate-y-[20px] skew-x-[-10deg] rotate-[7deg] z-10"
               style={{
                 background: `url(/images/hero-image-3.jpeg) top / cover no-repeat`,
                 height: "100%",
