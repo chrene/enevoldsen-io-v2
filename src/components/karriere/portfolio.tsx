@@ -9,7 +9,7 @@ export default function Portfolio() {
             <div className="flex flex-col">
               <div className="py-4 bg-yellow-50 flex justify-between">
                 <h2 className="font-extrabold text-5xl leading-snug text-gray-800 max-w-lg">
-                  Personlige projekter
+                  Projekter og arbejdserfaring
                 </h2>
               </div>
               <div className="flex flex-row flex-wrap items-start -mx-8 mt-16">

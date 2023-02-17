@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -10,9 +10,8 @@ export default function Hero() {
               Web Designer og Udvikler
             </h1>
             <p className="text-center text-lg mt-8">
-              Hej 👋 Mit navn er Christian, og jeg er en erfaren webdesigner og udvikler med en
-              passion for at skabe effektive weboplevelser. På min hjemmeside kan du se eksempler på
-              mine projekter og læse mere om mine kompetencer.
+              Hej 👋 Mit navn er Christian, og jeg er en erfaren webdesigner og
+              udvikler med en passion for at skabe effektive weboplevelser.
             </p>
             <div className="flex justify-center mt-8 space-x-8 items-center">
               <Link href="/projekter" className="btn btn-primary btn-arrow">
@@ -31,21 +30,21 @@ export default function Hero() {
               className="min-w-[350px] translate-y-[50px] skew-x-[-10deg] rotate-[7deg] z-30"
               style={{
                 background: `url(/images/hero-image-1.jpeg) top / cover no-repeat`,
-                height: '100%',
+                height: "100%",
               }}
             />
             <div
               className="min-w-[350px] translate-y-[30px] skew-x-[-10deg] rotate-[7deg] z-20"
               style={{
                 background: `url(/images/hero-image-2.jpeg) top / cover no-repeat`,
-                height: '100%',
+                height: "100%",
               }}
             />
             <div
               className="min-w-[350px] translate-y-[20px] skew-x-[-10deg] rotate-[7deg] z-10"
               style={{
                 background: `url(/images/hero-image-3.jpeg) top / cover no-repeat`,
-                height: '100%',
+                height: "100%",
               }}
             />
           </div>

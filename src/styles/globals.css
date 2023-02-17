@@ -19,12 +19,16 @@ body {
     @apply relative transition-all duration-150 font-medium h-fit pb-2 text-gray-700 no-underline cursor-pointer overflow-x-hidden text-lg hover:text-gray-800;
   }
 
-  .link:after {
+  .link:not(.link-arrow):after {
     content: "";
     @apply absolute top-auto bottom-0 left-0 right-0 inline-block w-0 h-[1px] -translate-x-full transition-all duration-200 ease-in-out hover:w-full hover:translate-x-0;
   }
 
-  .link:hover:after {
+  .link.link-arrow {
+    @apply inline-flex items-center px-8 -mx-8 py-3 text-base cursor-default font-normal tracking-wide rounded-full text-gray-700 bg-transparent transition-all duration-150 ease-out hover:cursor-pointer;
+  }
+
+  .link:not(.link-arrow):hover:after {
     @apply w-full translate-x-0 bg-gray-700;
   }
 
@@ -48,6 +52,7 @@ body {
   .btn.btn-primary {
     @apply text-gray-700 bg-yellow-500 hover:bg-yellow-600;
   }
+
   .btn.btn-secondary {
     @apply text-yellow-50 bg-pink-500 hover:bg-pink-600;
   }
@@ -55,6 +60,15 @@ body {
   .btn.btn-arrow:after {
     content: "→";
     @apply ml-2 transition-transform duration-200 ease-in-out;
+  }
+
+  .link.link-arrow:after {
+    content: "→";
+    @apply ml-2 transition-transform duration-200 ease-in-out;
+  }
+
+  .link.link-arrow:hover:after {
+    @apply translate-x-1;
   }
 
   .btn.btn-arrow:hover:after {
