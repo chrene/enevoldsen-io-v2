@@ -1,4 +1,4 @@
-import services from '@/data/services.json';
+import services from "@/data/services.json";
 
 export default function Services() {
   return (
@@ -6,15 +6,15 @@ export default function Services() {
       <section className="bg-black relative h-fit">
         <div className="page-padding static">
           <div className="max-w-7xl mx-auto py-24 ">
-            <div className="grid grid-cols-2 gap-12">
-              <div>
+            <div className="grid grid-cols-12 gap-12">
+              <div className="col-span-6">
                 <div className="sticky top-10">
-                  <h2 className="font-medium text-4xl text-yellow-50 leading-tight">
-                    Hvad laver jeg?
+                  <h2 className="font-extrabold text-5xl text-yellow-50 leading-snug uppercase text-yellow-50">
+                    erfaring og <span className="bg-pink-500">Kompetencer</span>
                   </h2>
                 </div>
               </div>
-              <div>
+              <div className="col-span-6">
                 {services.map((service, index) => {
                   return (
                     <div
@@ -22,8 +22,12 @@ export default function Services() {
                       key={`${service.name}-${index}`}
                     >
                       <div className="flex-1">
-                        <h3 className="font-bold text-2xl text-yellow-50 my-4">{service.name}</h3>
-                        <p className="text-yellow-50 leading-relaxed">{service.description}</p>
+                        <h3 className="font-bold text-2xl  text-pink-500 my-4">
+                          {service.name}
+                        </h3>
+                        <p className="text-yellow-50 leading-relaxed">
+                          {service.description}
+                        </p>
                         <div className="h-[1px] w-full bg-yellow-50 my-8 bg-opacity-20"></div>
                       </div>
                     </div>
