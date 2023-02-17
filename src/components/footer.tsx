@@ -54,7 +54,7 @@ export default function Footer() {
                 <ul className="flex flex-row space-x-8">
                   <li>
                     <Link href="/om">
-                      <span className="text-yellow-50 hover:text-pink-500 transition-all duration-100">
+                      <span className="text-yellow-50 hover:text-brand-500 transition-all duration-100">
                         Om
                       </span>
                     </Link>
@@ -62,21 +62,21 @@ export default function Footer() {
 
                   <li>
                     <Link href="/projekter">
-                      <span className="text-yellow-50  hover:text-pink-500 transition-all duration-100">
+                      <span className="text-yellow-50  hover:text-brand-500 transition-all duration-100">
                         Projekter
                       </span>
                     </Link>
                   </li>
                   <li>
                     <Link href="/freelance">
-                      <span className="text-yellow-50  hover:text-pink-500 transition-all duration-100">
+                      <span className="text-yellow-50  hover:text-brand-500 transition-all duration-100">
                         Freelance
                       </span>
                     </Link>
                   </li>
                   <li>
                     <Link href="/kontakt">
-                      <span className="text-yellow-50  hover:text-pink-500 transition-all duration-100">
+                      <span className="text-yellow-50  hover:text-brand-500 transition-all duration-100">
                         Kontakt
                       </span>
                     </Link>

@@ -10,7 +10,8 @@ export default function Services() {
               <div className="col-span-6">
                 <div className="sticky top-10">
                   <h2 className="font-extrabold text-5xl text-yellow-50 leading-snug uppercase text-yellow-50">
-                    erfaring og <span className="bg-pink-500">Kompetencer</span>
+                    erfaring og{" "}
+                    <span className="bg-brand-800">Kompetencer</span>
                   </h2>
                 </div>
               </div>
@@ -22,10 +23,10 @@ export default function Services() {
                       key={`${service.name}-${index}`}
                     >
                       <div className="flex-1">
-                        <h3 className="font-bold text-2xl  text-pink-500 my-4">
+                        <h3 className="font-bold text-2xl text-yellow-50 my-4">
                           {service.name}
                         </h3>
-                        <p className="text-yellow-50 leading-relaxed">
+                        <p className="text-brand-50/90 leading-relaxed">
                           {service.description}
                         </p>
                         <div className="h-[1px] w-full bg-yellow-50 my-8 bg-opacity-20"></div>
