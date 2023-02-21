@@ -1,23 +1,73 @@
-[
-  {
-    "name": "Klaskefar",
-    "tags": ["Web Design", "SEO"],
-    "description": "Klaskefar er historien om en rapper fra København, der har skabt sig en karriere som freestyle-rapper og showmand. Jeg har udviklet en hjemmeside til Klaskefar, for at understøtte hans online tilstedeværelse.",
-    "link": "https://klaskefar.dk",
-    "image": "images/portfolio/klaskefar.jpeg"
-  },
-  {
-    "name": "Energiteknik Lolland",
-    "tags": ["Web Design", "SEO"],
-    "description": "I projektet har jeg udviklet en hjemmeside til Energiteknik Lolland. Energiteknik Lolland er en virksomhed, der tilbyder energirådgivning og energioptimering til private og erhverv.",
-    "link": "https://energitekniklolland.dk",
-    "image": "images/portfolio/energitekniklolland.jpeg"
-  },
-  {
-    "name": "Lynfaktura",
-    "tags": ["Webapp udvikling"],
-    "description": "Lynfaktura er en online faktureringstjeneste, der gør det nemt at danne PDF fakturaer til dine kunder. Lynfaktura er mest af alt udviklet til personlig brug, men nu gjort offentlig tilgængelig. Prøv den, det er gratis!",
-    "link": "https://lynfaktura.dk",
-    "image": "images/portfolio/lynfaktura.jpeg"
-  }
-]
+{
+  "personal": [
+    {
+      "name": "Klaskefar",
+      "tags": ["Web Design", "SEO"],
+      "description": "Klaskefar er historien om en rapper fra København, der har skabt sig en karriere som freestyle-rapper og showmand. Jeg har udviklet en hjemmeside til Klaskefar, for at understøtte hans online tilstedeværelse.",
+      "link": "https://klaskefar.dk",
+      "image": "images/portfolio/klaskefar.jpeg"
+    },
+    {
+      "name": "Energiteknik Lolland",
+      "tags": ["Web Design", "SEO"],
+      "description": "I projektet har jeg udviklet en hjemmeside til Energiteknik Lolland. Energiteknik Lolland er en virksomhed, der tilbyder energirådgivning og energioptimering til private og erhverv.",
+      "link": "https://energitekniklolland.dk",
+      "image": "images/portfolio/energitekniklolland.jpeg"
+    },
+
+    {
+      "name": "Lynfaktura",
+      "tags": ["Webapp udvikling"],
+      "description": "Lynfaktura er en online faktureringstjeneste, der gør det nemt at danne PDF fakturaer til dine kunder. Lynfaktura er mest af alt udviklet til personlig brug, men nu gjort offentlig tilgængelig. Prøv den, det er gratis!",
+      "link": "https://lynfaktura.dk",
+      "image": "images/portfolio/lynfaktura.jpeg"
+    }
+  ],
+  "professional": [
+    {
+      "name": "YourLocal App",
+      "tags": ["Angular", "Ionic", "NodeJS", "PostgreSQL"],
+      "start": "2016-01-01",
+      "end": "2020-02-28",
+      "description": "YourLocal er en app, der hjælper dig med at finde lokale butikker og restauranter i dit område. Appen er udviklet med Ionic, Angular og NodeJS. Jeg har været med til at udvikle både frontend og backend.",
+      "link": "https://yourlocal.org",
+      "company": "YourLocal"
+    },
+    {
+      "name": "LuggageHero App",
+      "tags": ["React", "NodeJS", "PostgreSQL"],
+      "start": "2016-01-01",
+      "end": "2020-02-28",
+      "description": "LuggageHero er en app, der hjælper dig med at finde en lufthavnshjælper, der kan hjælpe dig med at transportere dine bagage. Appen er udviklet med React, NodeJS og PostgreSQL. Jeg har været med til at udvikle både frontend og backend.",
+      "link": "https://luggagehero.com",
+      "company": "LuggageHero"
+    },
+    {
+      "name": "MinEjendom Web App",
+      "tags": ["React", "NestJS", "NX Workspace"],
+      "start": "2016-01-01",
+      "end": "2020-02-28",
+      "description": "MinEjendom er en app, der hjælper dig med at holde styr på din ejendom. Appen er udviklet med React, NestJS og NX Workspace. Jeg har været med til at udvikle både frontend og backend.",
+      "link": "https://minejendom.dk",
+      "company": "SCHØDT A/S"
+    },
+    {
+      "name": "Flatr Web App",
+      "tags": ["React", "NestJS", "NX Workspace"],
+      "start": "2016-01-01",
+      "end": "2020-02-28",
+      "description": "Flatr er en app, der hjælper dig med at finde den perfekte lejlighed. Appen er udviklet med React, NestJS og NX Workspace. Jeg har været med til at udvikle både frontend og backend.",
+      "link": "https://flatr.dk",
+      "company": "SCHØDT A/S"
+    },
+    {
+      "name": "sofacompany.com",
+      "start": "2016-01-01",
+      "end": "2020-02-28",
+      "tags": ["React", "Magento", "PWA"],
+      "description": "sofacompany.com er en webshop, der sælger sofaer. Webshoppen er udviklet med Magento og en tilhørende storefront PWA. Min primære rolle er product management, men ind i mellem kribler det stadig i fingrene.",
+      "link": "https://flatr.dk",
+      "company": "SOFACOMPANY A/S"
+    }
+  ]
+}

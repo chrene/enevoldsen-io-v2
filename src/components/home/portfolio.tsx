@@ -1,4 +1,5 @@
 import portfolio from "@/data/portfolio.json";
+import Link from "next/link";
 
 export default function Portfolio() {
   return (
@@ -13,7 +14,7 @@ export default function Portfolio() {
                 </h2>
               </div>
               <div className="flex flex-row flex-wrap items-start -mx-8 mt-16">
-                {portfolio.map((portfolio, index) => {
+                {portfolio.personal.map((portfolio, index) => {
                   return (
                     <div
                       className="basis-[50%] flex items-center bg-yellow-50 even:mt-32 px-8"
@@ -42,7 +43,7 @@ export default function Portfolio() {
                           })}
                         </div>
 
-                        <p className="text-black-700 leading-relaxed">
+                        <p className="text-gray-800 text-opacity-60 leading-relaxed">
                           {portfolio.description}
                         </p>
 
@@ -59,7 +60,9 @@ export default function Portfolio() {
                 })}
               </div>
               <div className="mx-auto justify-center mt-16">
-                <a className="btn btn-primary btn-arrow">Se alle projekter</a>
+                <Link href="/projekter" className="btn btn-primary btn-arrow">
+                  Se alle projekter
+                </Link>
               </div>
             </div>
           </div>

@@ -1,6 +1,6 @@
 import portfolio from "@/data/portfolio.json";
 
-export default function Portfolio() {
+export default function ProfessionalProjects() {
   return (
     <>
       <section className="bg-yellow-50 relative h-fit">
@@ -9,14 +9,14 @@ export default function Portfolio() {
             <div className="flex flex-col">
               <div className="py-4 bg-yellow-50 flex justify-between">
                 <h2 className="font-extrabold text-5xl leading-snug text-gray-800 max-w-lg">
-                  Projekter og arbejdserfaring
+                  Personlige projekter
                 </h2>
               </div>
-              <div className="flex flex-row flex-wrap items-start -mx-8 mt-16">
+              <div className="grid grid-cols-12 gap-12 mt-16">
                 {portfolio.personal.map((portfolio, index) => {
                   return (
                     <div
-                      className="basis-[50%] flex items-center bg-yellow-50 even:mt-32 px-8"
+                      className="flex bg-yellow-50 col-span-12 md:col-span-6"
                       key={`${portfolio.name}-${index}`}
                     >
                       <div className="flex-1 space-y-8">
@@ -42,7 +42,7 @@ export default function Portfolio() {
                           })}
                         </div>
 
-                        <p className="text-black-700 leading-relaxed">
+                        <p className="text-gray-800 text-opacity-60 leading-relaxed">
                           {portfolio.description}
                         </p>
 
@@ -57,9 +57,6 @@ export default function Portfolio() {
                     </div>
                   );
                 })}
-              </div>
-              <div className="mx-auto justify-center mt-16">
-                <a className="btn btn-primary btn-arrow">Se alle projekter</a>
               </div>
             </div>
           </div>

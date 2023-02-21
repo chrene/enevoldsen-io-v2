@@ -13,7 +13,7 @@ export default function Portfolio() {
                 </h2>
               </div>
               <div className="flex flex-row flex-wrap items-start -mx-8 mt-16">
-                {portfolio.map((portfolio, index) => {
+                {portfolio.personal.map((portfolio, index) => {
                   return (
                     <div
                       className="basis-[50%] flex items-center bg-yellow-50 even:mt-32 px-8"
