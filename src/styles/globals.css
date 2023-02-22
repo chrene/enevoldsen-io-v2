@@ -25,7 +25,7 @@ body {
   }
 
   .link.link-arrow {
-    @apply inline-flex items-center px-8 -mx-8 py-3 text-base cursor-default font-normal tracking-wide rounded-full text-gray-700 bg-transparent transition-all duration-150 ease-out hover:cursor-pointer;
+    @apply inline-flex items-center px-8 -mx-8 md:py-3 text-base cursor-default font-normal tracking-wide rounded-full text-gray-700 bg-transparent transition-all duration-150 ease-out hover:cursor-pointer;
   }
 
   .link:not(.link-arrow):hover:after {

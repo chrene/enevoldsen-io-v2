@@ -1,6 +1,6 @@
-import Head from 'next/head';
-import Footer from './footer';
-import Header from './header';
+import Head from "next/head";
+import Footer from "./footer";
+import Header from "./header";
 
 type Props = {
   children: React.ReactNode;
@@ -17,7 +17,7 @@ export default function Layout(props: Props) {
       </Head>
 
       <Header />
-      <main className="relative">{props.children}</main>
+      <main className="relative overflow-x-clip">{props.children}</main>
       <Footer />
     </>
   );
