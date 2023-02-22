@@ -13,7 +13,7 @@ export default function Portfolio() {
                   Personlige projekter
                 </h2>
               </div>
-              <div className="flex flex-row flex-wrap items-start -mx-8 mt-8">
+              <div className="flex flex-row flex-wrap items-start -mx-8 md:mt-8">
                 {portfolio.personal.map((portfolio, index) => {
                   return (
                     <div
