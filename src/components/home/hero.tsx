@@ -6,7 +6,7 @@ export default function Hero() {
       <section className="bg-yellow-50">
         <div className="page-padding">
           <div className="w-full md:max-w-xl mx-auto py-8 lg:py-24">
-            <h1 className="font-extrabold text-4xl lg:text-7xl text-gray-800 text-center leading-tight">
+            <h1 className="font-extrabold text-4xl lg:text-7xl text-gray-800 text-center leading-tight lg:leading-tight">
               Web Designer og Udvikler
             </h1>
             <p className="text-center text-lg mt-8">
