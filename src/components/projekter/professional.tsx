@@ -9,7 +9,7 @@ export default function PersonalProjects() {
           <div className="max-w-7xl mx-auto py-24">
             <div className="flex flex-col">
               <div className="py-4 bg-black flex justify-between">
-                <h2 className="font-extrabold text-5xl leading-snug text-yellow-500 max-w-lg">
+                <h2 className="font-extrabold text-5xl leading-snug text-yellow-50 max-w-lg">
                   Arbejdsrelaterede projekter
                 </h2>
               </div>
@@ -21,9 +21,9 @@ export default function PersonalProjects() {
                       key={`${portfolio.name}-${index}`}
                     >
                       <div className="flex-1 space-y-8">
-                        <h3 className="font-extrabold text-2xl text-gray-100 mb-4">
+                        <h3 className="font-extrabold text-2xl text-yellow-50 mb-4">
                           {portfolio.name}
-                          <div className="text-xs font-normal mt-2 text-gray-100 text-opacity-40">
+                          <div className="text-xs font-normal mt-2 text-yellow-50 text-opacity-40">
                             Periode: {portfolio.start} - {portfolio.end}
                           </div>
                         </h3>
@@ -31,7 +31,7 @@ export default function PersonalProjects() {
                           {portfolio.tags.map((tag, index) => {
                             return (
                               <span
-                                className="text-xs text-gray-100 bg-yellow-50 bg-opacity-10 px-2 py-1 rounded uppercase tracking-widest"
+                                className="text-xs text-yellow-50 bg-yellow-50 bg-opacity-10 px-2 py-1 rounded uppercase tracking-widest"
                                 key={`${tag}-${index}`}
                               >
                                 {tag}
@@ -40,7 +40,7 @@ export default function PersonalProjects() {
                           })}
                         </div>
 
-                        <p className="text-gray-100 leading-relaxed">
+                        <p className="text-yellow-50/80 leading-relaxed">
                           {portfolio.description}
                         </p>
 
@@ -50,9 +50,7 @@ export default function PersonalProjects() {
                             target="_blank"
                             className="link link-underline text-base"
                           >
-                            <span className="text-yellow-400">
-                              Se projektet
-                            </span>
+                            <span className="text-yellow-50">Se projektet</span>
                           </Link>
                         </div>
                       </div>

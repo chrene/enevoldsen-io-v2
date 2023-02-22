@@ -26,9 +26,9 @@ export default function Footer() {
               </div>
             </div>
             <div className="justify-self-center md:justify-self-end md:self-end col-span-2 md:col-span-1">
-              <a href="#" className="btn btn-primary btn-arrow">
+              <Link href="#" className="btn btn-primary btn-arrow">
                 Freelance
-              </a>
+              </Link>
             </div>
           </div>
           <div className="mt-24 divider"></div>
@@ -54,7 +54,7 @@ export default function Footer() {
                 <ul className="flex flex-row space-x-8 flex-wrap">
                   <li>
                     <Link href="/om">
-                      <span className="text-yellow-50 hover:text-brand-500 transition-all duration-100">
+                      <span className="text-yellow-50 hover:text-pink-500 transition-all duration-100">
                         Om
                       </span>
                     </Link>
@@ -62,22 +62,15 @@ export default function Footer() {
 
                   <li>
                     <Link href="/projekter">
-                      <span className="text-yellow-50  hover:text-brand-500 transition-all duration-100">
+                      <span className="text-yellow-50  hover:text-pink-500 transition-all duration-100">
                         Projekter
                       </span>
                     </Link>
                   </li>
                   <li>
                     <Link href="/freelance">
-                      <span className="text-yellow-50  hover:text-brand-500 transition-all duration-100">
+                      <span className="text-yellow-50  hover:text-pink-500 transition-all duration-100">
                         Freelance
-                      </span>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/kontakt">
-                      <span className="text-yellow-50  hover:text-brand-500 transition-all duration-100">
-                        Kontakt
                       </span>
                     </Link>
                   </li>
@@ -85,13 +78,20 @@ export default function Footer() {
               </nav>
               {/* social links */}
               <div className="flex flex-row justify-content-center md:justify-content-start space-x-6 mt-8">
-                <a href="#" className="">
+                <a
+                  href="https://github.com/chrene"
+                  className=""
+                  target={"_blank"}
+                >
                   <FaGithub className="h-6 w-6" />
                 </a>
-                <a href="#">
+                <a
+                  href="https://www.linkedin.com/in/christianenevoldsen/"
+                  target={"_blank"}
+                >
                   <FaLinkedinIn className="h-6 w-6" />
                 </a>
-                <a href="#">
+                <a href="https://twitter.com/chrsapp" target={"_blank"}>
                   <FaTwitter className="h-6 w-6" />
                 </a>
               </div>

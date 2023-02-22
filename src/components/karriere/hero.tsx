@@ -9,8 +9,8 @@ export default function Hero() {
       <section className="bg-yellow-50">
         <div className="page-padding">
           <div className="max-w-xl mx-auto py-24">
-            <h1 className="font-extrabold text-5xl text-gray-800 text-center leading-tight">
-              Fra startup app udvikler til product manager i en stor virksomhed
+            <h1 className="font-extrabold text-3xl md:text-5xl text-gray-800 text-center leading-tight md:leading-tight">
+              Fra startup app udvikler til product manager
             </h1>
             <p className="text-center text-lg mt-8">
               Igennem min karriere har jeg arbejdet som fullstack udvikler, team
