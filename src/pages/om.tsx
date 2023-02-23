@@ -43,13 +43,6 @@ export default function AboutPage() {
                 🏢 Jeg har arbejdet som udvikler og tech lead i 6 år, og som
                 product owner og product manager i de seneste 2 år.
               </li>
-              <li>
-                🎶 I min fritid spiller jeg klaver og bass. Derudover producerer
-                jeg også musik bl.a. sammend med{" "}
-                <a href="https://klaskefar.dk/" target="_blank">
-                  Klaskefar
-                </a>
-              </li>
               <li className="">
                 Jeg startede med at kode som 18-årig. Det første sprog jeg lærte
                 var VB 6.
