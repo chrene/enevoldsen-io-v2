@@ -26,14 +26,15 @@ export default function Services() {
                         <h3 className="font-bold text-2xl text-pink-500 my-4">
                           {service.name}
                         </h3>
-                        <p className="text-brand-50/90 leading-relaxed">
+                        <p className="text-brand-50/90 text-lg md:text-base leading-relaxed md:leading-relaxed">
                           {service.description}
                         </p>
                         <div
                           className={clsx(
                             "md:h-[1px] md:mb-8 w-full bg-yellow-50 my-8 bg-opacity-20",
                             {
-                              "h-[0px] mb-16": index === services.length - 1,
+                              "h-[0px] mb-8 md:mb-16":
+                                index === services.length - 1,
                             }
                           )}
                         ></div>

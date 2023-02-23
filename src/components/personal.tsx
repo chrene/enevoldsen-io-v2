@@ -53,13 +53,15 @@ export default function PersonalProjects() {
                           {portfolio.description}
                         </p>
                       </div>
-                      <div className="mt-4">
+                      <div className="mt-8 md:mt-4">
                         <a
                           href={portfolio.link}
                           target="_blank"
                           className="link link-arrow"
                         >
-                          <span className="font-medium">Se projektet</span>
+                          <span className="font-medium text-lg md:text-base">
+                            Se projektet
+                          </span>
                         </a>
                       </div>
                     </div>

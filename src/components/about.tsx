@@ -16,7 +16,7 @@ export default function About(props: Props) {
         <div className="page-padding">
           <div className="max-w-7xl mx-auto py-12 md:py-8 pb-24">
             <div className="hidden md:block h-16 w-full sticky top-0 bg-gradient-to-b from-yellow-400 to-yellow-400/0 z-10"></div>
-            <div className="grid grid-cols-2 gap-12 relative">
+            <div className="grid grid-cols-2 gap-y-4 md:gap-12 relative">
               <div className="col-span-2 md:col-span-1">
                 <div className="sticky top-8">
                   {renderTitle?.()}
@@ -30,7 +30,7 @@ export default function About(props: Props) {
                   )}
                 </div>
               </div>
-              <div className="col-span-2 md:col-span-1 relative">
+              <div className="col-span-2 md:col-span-1 relative text-lg sm:text-base">
                 {renderDescription?.()}
               </div>
             </div>
