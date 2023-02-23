@@ -26,7 +26,7 @@ export default function Footer() {
               </div>
             </div>
             <div className="justify-self-center md:justify-self-end md:self-end col-span-2 md:col-span-1">
-              <Link href="#" className="btn btn-primary btn-arrow">
+              <Link href="/freelance" className="btn btn-primary btn-arrow">
                 Freelance
               </Link>
             </div>
