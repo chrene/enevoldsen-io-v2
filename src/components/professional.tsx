@@ -1,4 +1,5 @@
 import portfolio from "@/data/portfolio.json";
+import toHumanDate from "@/util/to-human-data";
 import Link from "next/link";
 
 export default function ProfessionalProjects() {
@@ -9,11 +10,11 @@ export default function ProfessionalProjects() {
           <div className="max-w-7xl mx-auto py-24">
             <div className="flex flex-col">
               <div className="py-4 bg-black flex justify-between">
-                <h2 className="font-extrabold text-5xl leading-snug text-yellow-50 max-w-lg">
+                <h2 className="font-extrabold text-4xl md:text-5xl md:leading-snug text-yellow-50 max-w-lg">
                   Arbejdsrelaterede projekter
                 </h2>
               </div>
-              <div className="grid grid-cols-12 gap-24 mt-16">
+              <div className="grid grid-cols-12 gap-y-16 sm:gap-16 xl:gap-24 mt-16">
                 {portfolio.professional.map((portfolio, index) => {
                   return (
                     <div
@@ -23,8 +24,11 @@ export default function ProfessionalProjects() {
                       <div className="flex-1 space-y-8">
                         <h3 className="font-extrabold text-2xl text-yellow-50 mb-4">
                           {portfolio.name}
-                          <div className="text-xs font-normal mt-2 text-yellow-50 text-opacity-40">
-                            Periode: {portfolio.start} - {portfolio.end}
+                          <div className="text-base md:text-sm font-normal mt-2 text-yellow-50 text-opacity-40">
+                            {toHumanDate(portfolio.start)} -{" "}
+                            {portfolio.end !== ""
+                              ? toHumanDate(portfolio.end)
+                              : "nu"}
                           </div>
                         </h3>
                         <div className="flex mt-4 space-x-4">
@@ -40,7 +44,7 @@ export default function ProfessionalProjects() {
                           })}
                         </div>
 
-                        <p className="text-yellow-50/80 leading-relaxed">
+                        <p className="text-yellow-50/80 leading-relaxed text-lg sm:text-base sm:leading-relaxed">
                           {portfolio.description}
                         </p>
 

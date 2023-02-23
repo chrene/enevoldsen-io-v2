@@ -36,8 +36,8 @@
     {
       "name": "LuggageHero App",
       "tags": ["NX Workspace", "Angular", "Ionic"],
-      "start": "2016-01-01",
-      "end": "2020-02-28",
+      "start": "2019-08-01",
+      "end": "2019-10-01",
       "description": "LuggageHero er en platform, der hjælper rejsende med at få opbevaret deres bagage sikkert, nemt og billigt i samarbejde med en række af butikker og hoteller. Jeg har været med til at udvikle deres mobil app.",
       "link": "https://luggagehero.com",
       "company": "LuggageHero"
@@ -45,8 +45,8 @@
     {
       "name": "MinEjendom Web App",
       "tags": ["React", "NestJS", "NX Workspace"],
-      "start": "2016-01-01",
-      "end": "2020-02-28",
+      "start": "2020-03-01",
+      "end": "2021-07-01",
       "description": "MinEjendom er en SaaS, der hjælper beboere og bestyrelsesmedlemmer med at holde sig ajour på seneste nyt i andelsboligforeningen. Min rolle var tech lead med et team på 2-3 udviklere.",
       "link": "https://minejendom.dk",
       "company": "SCHØDT A/S"
@@ -54,16 +54,16 @@
     {
       "name": "Flatr Web App",
       "tags": ["React", "NestJS", "NX Workspace"],
-      "start": "2016-01-01",
-      "end": "2020-02-28",
+      "start": "2020-03-01",
+      "end": "2021-07-01",
       "description": "Flatr er en hjemmeside, der hjælper dig med at finde den perfekte andelsbolig. Hjemmeside og backend er udviklet med React, NestJS og NX Workspace. Min rolle var tech lead med et team på 2-3 udviklere.",
       "link": "https://flatr.dk",
       "company": "SCHØDT A/S"
     },
     {
       "name": "sofacompany.com",
-      "start": "2016-01-01",
-      "end": "2020-02-28",
+      "start": "2021-07-01",
+      "end": "",
       "tags": ["React", "Magento", "PWA"],
       "description": "sofacompany.com er en webshop, der sælger sofaer. Webshoppen er udviklet med Magento og en tilhørende storefront PWA. Min primære rolle er product management, men ind i mellem træder jeg til som frontend web udvikler når der er behov for ekstra manskab.",
       "link": "https://sofacompany.com",
