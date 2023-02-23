@@ -19,6 +19,7 @@ export default function FreelancePage() {
         showScrollIndicator
       />
       <Services />
+      <ProfessionalProjects />
       <About
         renderTitle={() => (
           <AboutTitle>Freelance for mindre projekter og startups.</AboutTitle>
@@ -42,7 +43,6 @@ export default function FreelancePage() {
         )}
       />
       <PersonalProjects />
-      <ProfessionalProjects />
     </Layout>
   );
 }

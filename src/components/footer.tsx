@@ -61,13 +61,6 @@ export default function Footer() {
                   </li>
 
                   <li>
-                    <Link href="/projekter">
-                      <span className="text-yellow-50  hover:text-pink-500 transition-all duration-100">
-                        Projekter
-                      </span>
-                    </Link>
-                  </li>
-                  <li>
                     <Link href="/freelance">
                       <span className="text-yellow-50  hover:text-pink-500 transition-all duration-100">
                         Freelance

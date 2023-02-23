@@ -6,7 +6,6 @@ import { FiMenu, FiX } from "react-icons/fi";
 
 const navigation = [
   { name: "Om", href: "/om" },
-  { name: "Karriere", href: "/karriere" },
   { name: "Freelance", href: "/freelance" },
 ];
 

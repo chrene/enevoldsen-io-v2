@@ -4,6 +4,7 @@ import Layout from "@/components/layout";
 import PersonalProjects from "@/components/personal";
 import Services from "@/components/services";
 import clsx from "clsx";
+import Head from "next/head";
 import Link from "next/link";
 
 export default function Home() {
@@ -15,19 +16,27 @@ export default function Home() {
 
   return (
     <Layout>
+      <Head>
+        <title>Christian - Passioneret Webdesigner og Udvikler</title>
+        <meta
+          name="description"
+          content="Jeg er Christian, en passioneret webdesigner og udvikler med omfattende erfaring inden for skabelse af effektive og brugervenlige løsninger. Fra design til udvikling."
+        />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Hero
         renderTitle={() => <>Web designer og udvikler</>}
         renderDescription={() => (
           <>
-            Hej 👋 Mit navn er Christian, og jeg er en erfaren webdesigner og
-            udvikler med en passion for at skabe effektive weboplevelser.
+            Hej 👋 Mit navn er Christian, og jeg er en teknologi-entusiast,
+            udvikler og webdesigner. Min ekspertise dækker en bred vifte af
+            områder lige fra design til udvikling og implementering. Jeg har en
+            stærk interesse i at følge med i de seneste tendenser inden for
+            webudvikling, og jeg bruger aktivt min viden og erfaring til at
+            skabe innovative og effektive løsninger.
           </>
         )}
-        renderCta={() => (
-          <Link href="/projekter" className="btn btn-primary btn-arrow">
-            Udvalgte projekter
-          </Link>
-        )}
+        showScrollIndicator
         renderBottomView={() => (
           <div className="relative h-[400px] max-w-full overflow-hidden">
             <div className="absolute inset-0 z-40 bg-gradient-to-b from-black/0 to-black" />

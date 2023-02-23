@@ -71,11 +71,11 @@ export function AboutDescription({
   className?: string;
 }) {
   return (
-    <p
+    <div
       className={twMerge("text-base leading-relaxed text-gray-800", className)}
       {...props}
     >
       {children}
-    </p>
+    </div>
   );
 }
