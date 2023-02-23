@@ -18,7 +18,7 @@ export default function About(props: Props) {
             <div className="hidden md:block h-16 w-full sticky top-0 bg-gradient-to-b from-yellow-400 to-yellow-400/0 z-10"></div>
             <div className="grid grid-cols-2 gap-y-4 md:gap-12 relative">
               <div className="col-span-2 md:col-span-1">
-                <div className="sticky top-8">
+                <div className="lg:sticky lg:top-8">
                   {renderTitle?.()}
                   {ctaLink && ctaText && (
                     <a
