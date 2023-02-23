@@ -9,7 +9,7 @@ export default function Services() {
           <div className="max-w-sm md:max-w-7xl md:mx-auto md:py-24">
             <div className="flex flex-col gap-8 md:grid md:grid-cols-12 md:gap-12">
               <div className="md:col-span-6">
-                <div className="md:sticky md:top-10 z-50">
+                <div className="md:sticky mt-16 md:mt-0 md:top-10 z-50">
                   <h2 className="font-extrabold text-4xl sm:text-5xl leading-snug sm:leading-tight uppercase text-yellow-50">
                     erfaring og <span className="bg-pink-500">Kompetencer</span>
                   </h2>
