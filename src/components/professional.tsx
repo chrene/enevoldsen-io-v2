@@ -1,7 +1,7 @@
 import portfolio from "@/data/portfolio.json";
 import Link from "next/link";
 
-export default function PersonalProjects() {
+export default function ProfessionalProjects() {
   return (
     <>
       <section className="bg-black relative h-fit">
