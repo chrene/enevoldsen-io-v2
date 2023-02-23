@@ -7,7 +7,7 @@ export default function ProfessionalProjects() {
     <>
       <section className="bg-black relative h-fit">
         <div className="page-padding static">
-          <div className="max-w-7xl mx-auto py-24">
+          <div className="max-w-7xl mx-auto py-8 pb-16 md:py-24">
             <div className="flex flex-col">
               <div className="py-4 bg-black flex justify-between">
                 <h2 className="font-extrabold text-4xl md:text-5xl md:leading-snug text-yellow-50 max-w-lg">

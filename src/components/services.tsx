@@ -33,8 +33,7 @@ export default function Services() {
                           className={clsx(
                             "md:h-[1px] md:mb-8 w-full bg-yellow-50 my-8 bg-opacity-20",
                             {
-                              "h-[0px] mb-8 md:mb-16":
-                                index === services.length - 1,
+                              "h-[0px] mb-16": index === services.length - 1,
                             }
                           )}
                         ></div>
