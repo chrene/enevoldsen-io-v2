@@ -4,10 +4,21 @@ import Layout from "@/components/layout";
 import PersonalProjects from "@/components/personal";
 import ProfessionalProjects from "@/components/professional";
 import Services from "@/components/services";
+import Head from "next/head";
 
 export default function FreelancePage() {
   return (
     <Layout>
+      <Head>
+        <title>
+          Christian - Freelance webudvikling til mindre projekter og startups.
+        </title>
+        <meta
+          name="description"
+          content="Jeg tilbyder webudviklings- og designløsninger på mindre projekter til enkeltpersoner, startups og mindre virksomheder på freelancebasis"
+        />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Hero
         renderTitle={() =>
           "Freelance webudvikling til mindre projekter og startups."
