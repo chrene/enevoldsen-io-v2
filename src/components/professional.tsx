@@ -31,7 +31,7 @@ export default function ProfessionalProjects() {
                               : "nu"}
                           </div>
                         </h3>
-                        <div className="flex mt-4 space-x-4">
+                        <div className="flex mt-4 gap-4 flex-wrap">
                           {portfolio.tags.map((tag, index) => {
                             return (
                               <span
