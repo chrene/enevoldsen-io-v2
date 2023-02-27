@@ -15,13 +15,16 @@ export default function Footer() {
               </h2>
               <div className="flex flex-col gap-3 items-center md:items-start">
                 <a
-                  href="tel:004553768161"
+                  href="tel&#58;&#48;&#48;&#52;&#53;&#53;&#51;&#55;&#54;&#56;&#49;&#54;&#49;"
                   className="text-3xl font-bold text-gray-300"
                 >
-                  +45 5376 8161
+                  &#43;&#52;&#53; &#53;&#51;&#55;&#54; &#56;&#49;&#54;&#49;
                 </a>
-                <a href="mailto:c@enevoldsen.io">
-                  <span className="text-gray-500">c@enevoldsen.io</span>
+
+                <a href="mailt&#111;&#58;%63%40en&#101;%&#55;6&#111;l&#100;sen&#46;%69%&#54;F">
+                  <span className="text-gray-500">
+                    c&#64;enevol&#100;&#115;en&#46;&#105;o
+                  </span>
                 </a>
               </div>
             </div>
