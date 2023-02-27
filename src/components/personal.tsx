@@ -38,6 +38,7 @@ export default function PersonalProjects() {
                           />
                           <img
                             src={portfolio.image.thumbs.jpeg}
+                            alt={portfolio.name}
                             className="h-48 overflow-hidden rounded-lg shadow-lg mt-2 object-cover"
                           />
                         </picture>
