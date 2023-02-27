@@ -13,7 +13,7 @@ export default function FreelancePage() {
         <title>Freelance webudvikling til mindre projekter og startups.</title>
         <meta
           name="description"
-          content="Jeg kan hjælpe dig med at udvikle og designe din hjemmeside, uanset om du er en enkeltperson, en opstartsvirksomhed eller en mindre virksomhed. Som freelance webudvikler kan jeg tilbyde professionelle løsninger på mindre projekter. Kontakt mig for at finde ud af, hvordan jeg kan hjælpe dig."
+          content="Udvikling og design af din hjemmeside, uanset om du er en enkeltperson, startup eller en mindre virksomhed. Lad os finde ud af, hvordan jeg kan hjælpe dig."
         />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
