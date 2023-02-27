@@ -30,11 +30,17 @@ export default function PersonalProjects() {
                         <h3 className="font-extrabold text-xl text-gray-800">
                           {portfolio.name}
                         </h3>
-                        <img
-                          alt={portfolio.name}
-                          src={portfolio.image}
-                          className="h-48 overflow-hidden rounded-lg shadow-lg mt-2 object-cover"
-                        />
+                        <picture>
+                          <source
+                            srcSet={portfolio.image.thumbs.jpeg}
+                            type="image/webp"
+                            className="h-48 overflow-hidden rounded-lg shadow-lg mt-2 object-cover"
+                          />
+                          <img
+                            src={portfolio.image.thumbs.jpeg}
+                            className="h-48 overflow-hidden rounded-lg shadow-lg mt-2 object-cover"
+                          />
+                        </picture>
 
                         <div className="flex mt-4 space-x-4">
                           {portfolio.tags.map((tag, index) => {

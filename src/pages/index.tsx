@@ -3,17 +3,9 @@ import Hero from "@/components/hero";
 import Layout from "@/components/layout";
 import PersonalProjects from "@/components/personal";
 import Services from "@/components/services";
-import clsx from "clsx";
 import Head from "next/head";
-import Link from "next/link";
 
 export default function Home() {
-  const bottomImages = [
-    "/images/hero-image-1.jpeg",
-    "/images/hero-image-2.jpeg",
-    "/images/hero-image-3.jpeg",
-  ];
-
   return (
     <Layout>
       <Head>
@@ -38,30 +30,6 @@ export default function Home() {
           </>
         )}
         showScrollIndicator
-        renderBottomView={() => (
-          <div className="relative h-[400px] max-w-full overflow-hidden">
-            <div className="absolute inset-0 z-40 bg-gradient-to-b from-black/0 to-black" />
-            <div className="absolute inset-0 md:mx-auto md:max-w-4xl flex -space-x-16 py-8">
-              {bottomImages.map((image, index) => (
-                <div
-                  key={`${image}-${index}`}
-                  className={clsx(
-                    "min-w-[200px] md:max-w-full md:min-w-[350px] translate-y-[50px] skew-x-[-10deg] rotate-[7deg]",
-                    {
-                      "translate-y-[50px] z-30": index === 0,
-                      "translate-y-[30px] z-20": index === 1,
-                      "translate-y-[20px] z-10": index === 2,
-                    }
-                  )}
-                  style={{
-                    background: `url(${image}) top / cover no-repeat`,
-                    height: "100%",
-                  }}
-                />
-              ))}
-            </div>
-          </div>
-        )}
       />
       <Services />
       <PersonalProjects />
