@@ -17,10 +17,11 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>Christian - Passioneret Webdesigner og Udvikler</title>
+        <title>Passioneret webdesigner og udvikler</title>
         <meta
           name="description"
-          content="Jeg er Christian, en passioneret webdesigner og udvikler med omfattende erfaring inden for skabelse af effektive og brugervenlige løsninger. Fra design til udvikling."
+          content="Christian Enevoldsen - En teknologi-entusiast, udvikler og webdesigner
+          med ekspertise inden for design, udvikling og implementering."
         />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
