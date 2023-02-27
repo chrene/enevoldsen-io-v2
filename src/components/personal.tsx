@@ -32,7 +32,7 @@ export default function PersonalProjects() {
                         </h3>
                         <picture>
                           <source
-                            srcSet={portfolio.image.thumbs.jpeg}
+                            srcSet={portfolio.image.thumbs.webp}
                             type="image/webp"
                             className="h-48 overflow-hidden rounded-lg shadow-lg mt-2 object-cover"
                           />

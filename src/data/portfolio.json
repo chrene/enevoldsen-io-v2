@@ -7,8 +7,8 @@
       "link": "https://klaskefar.dk",
       "image": {
         "thumbs": {
-          "webp": "images/portfolio/klaskefar.webp",
-          "jpeg": "images/portfolio/klaskefar.jpeg"
+          "webp": "images/portfolio/klaskefar_thumb.webp",
+          "jpeg": "images/portfolio/klaskefar_thumb.jpeg"
         },
         "original": {
           "webp": "images/portfolio/klaskefar.webp",
@@ -23,8 +23,8 @@
       "link": "https://energitekniklolland.dk",
       "image": {
         "thumbs": {
-          "webp": "images/portfolio/energitekniklolland.webp",
-          "jpeg": "images/portfolio/energitekniklolland.jpeg"
+          "webp": "images/portfolio/energitekniklolland_thumb.webp",
+          "jpeg": "images/portfolio/energitekniklolland_thumb.jpeg"
         },
         "original": {
           "webp": "images/portfolio/energitekniklolland.webp",
@@ -40,8 +40,8 @@
       "link": "https://lynfaktura.dk",
       "image": {
         "thumbs": {
-          "webp": "images/portfolio/lynfaktura.webp",
-          "jpeg": "images/portfolio/lynfaktura.jpeg"
+          "webp": "images/portfolio/lynfaktura_thumb.webp",
+          "jpeg": "images/portfolio/lynfaktura_thumb.jpeg"
         },
         "original": {
           "webp": "images/portfolio/lynfaktura.webp",
