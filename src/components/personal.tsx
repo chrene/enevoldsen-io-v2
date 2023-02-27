@@ -57,6 +57,7 @@ export default function PersonalProjects() {
                         <a
                           href={portfolio.link}
                           target="_blank"
+                          rel="noopener noreferrer"
                           className="link link-arrow"
                         >
                           <span className="font-medium text-lg md:text-base">

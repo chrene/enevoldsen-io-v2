@@ -75,16 +75,22 @@ export default function Footer() {
                   href="https://github.com/chrene"
                   className=""
                   target={"_blank"}
+                  rel="noreferrer"
                 >
                   <FaGithub className="h-6 w-6" />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/christianenevoldsen/"
                   target={"_blank"}
+                  rel="noreferrer"
                 >
                   <FaLinkedinIn className="h-6 w-6" />
                 </a>
-                <a href="https://twitter.com/chrsapp" target={"_blank"}>
+                <a
+                  href="https://twitter.com/chrsapp"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
                   <FaTwitter className="h-6 w-6" />
                 </a>
               </div>

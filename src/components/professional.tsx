@@ -52,6 +52,7 @@ export default function ProfessionalProjects() {
                           <Link
                             href={portfolio.link}
                             target="_blank"
+                            rel="noopener noreferrer"
                             className="link link-underline text-base"
                           >
                             <span className="text-yellow-50">Se projektet</span>

@@ -54,6 +54,7 @@ export default function AboutPage() {
                 <a
                   href="https://yourlocal.org/"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="underline"
                 >
                   YourLocal
@@ -66,6 +67,7 @@ export default function AboutPage() {
                 <a
                   href="https://klaskefar.dk/"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="underline"
                 >
                   Klaskefar
