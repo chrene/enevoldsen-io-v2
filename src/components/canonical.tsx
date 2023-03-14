@@ -1,11 +1,10 @@
 import Head from "next/head";
-import { useRouter } from "next/router";
+import { usePathname } from "next/navigation";
 
 export default function CanonicalURL() {
   const siteUrl = "https://enevoldsen.io";
-  const router = useRouter();
-  const cleanPath = router.asPath.split("#")[0].split("?")[0];
-  const canonicalUrl = `${siteUrl}` + (router.asPath === "/" ? "" : cleanPath);
+  const pathname = usePathname();
+  const canonicalUrl = `${siteUrl}` + (pathname === "/" ? "" : pathname);
 
   return (
     <Head>
