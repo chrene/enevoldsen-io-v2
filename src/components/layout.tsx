@@ -12,22 +12,17 @@ type Props = {
   };
 };
 
-export function CanonicalURL() {
+export default function Layout(props: Props) {
+  const { children, seo } = props;
   const siteUrl = "https://enevoldsen.io";
   const pathname = usePathname();
   const canonicalUrl = `${siteUrl}` + (pathname === "/" ? "" : pathname);
-
-  return <link rel="canonical" href={canonicalUrl} />;
-}
-
-export default function Layout(props: Props) {
-  const { children, seo } = props;
   return (
     <>
       <Head>
         <title>{seo?.title || "enevoldsen.io"}</title>
         <meta name="description" content={seo?.description} />
-        <CanonicalURL />
+        <link rel="canonical" href={canonicalUrl} />
         {seo?.jsonLd && (
           <script
             type="application/ld+json"
