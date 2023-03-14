@@ -15,6 +15,7 @@ export default function FreelancePage() {
       "@type": "Person",
       "name": "Freelance Webudvikling",
       "jobTitle": "Webudvikler",
+      "telephone": "004553768161",
       "description": "Jeg tilbyder webudviklings- og designløsninger på freelancebasis, og jeg er klar til at hjælpe dig med dit projekt.",
       "url": "https://enevoldsen.io/freelance",
       "sameAs": [
