@@ -1,15 +1,16 @@
 import About, { AboutDescription, AboutTitle } from "@/components/about";
 import Hero from "@/components/hero";
 import Layout from "@/components/layout";
-import SEO from "@/components/seo";
 
 export default function AboutPage() {
   return (
-    <Layout>
-      <SEO
-        title="Christian - Passioneret Webdesigner og Udvikler"
-        description="Hej, jeg hedder Christian. En programmør med en passion for webudvikling og product management."
-      />
+    <Layout
+      seo={{
+        title: "Christian - Passioneret Webdesigner og Udvikler",
+        description:
+          "Hej, jeg hedder Christian. En programmør med en passion for webudvikling og product management.",
+      }}
+    >
       <Hero
         renderTitle={() => <>Om</>}
         renderDescription={() => (

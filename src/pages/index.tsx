@@ -2,18 +2,18 @@ import About, { AboutDescription, AboutTitle } from "@/components/about";
 import Hero from "@/components/hero";
 import Layout from "@/components/layout";
 import PersonalProjects from "@/components/personal";
-import SEO from "@/components/seo";
 
 import Services from "@/components/services";
 
 export default function Home() {
   return (
-    <Layout>
-      <SEO
-        title="Passioneret webdesigner og udvikler"
-        description="Christian Enevoldsen - En teknologi-entusiast, udvikler og webdesigner
-          med ekspertise inden for design, udvikling og implementering."
-      />
+    <Layout
+      seo={{
+        title: "Passioneret webdesigner og udvikler",
+        description:
+          "Christian Enevoldsen - En teknologi-entusiast, udvikler og webdesigner med ekspertise inden for design, udvikling og implementering.",
+      }}
+    >
       <Hero
         renderTitle={() => <>Web designer og udvikler</>}
         renderDescription={() => (

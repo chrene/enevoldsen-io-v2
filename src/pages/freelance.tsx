@@ -3,7 +3,6 @@ import Hero from "@/components/hero";
 import Layout from "@/components/layout";
 import PersonalProjects from "@/components/personal";
 import ProfessionalProjects from "@/components/professional";
-import SEO from "@/components/seo";
 import Services from "@/components/services";
 
 export default function FreelancePage() {
@@ -103,12 +102,14 @@ export default function FreelancePage() {
   }
 
   return (
-    <Layout>
-      <SEO
-        title="Freelance webudvikling til mindre projekter og startups."
-        description="Udvikling og design af din hjemmeside, uanset om du er en enkeltperson, startup eller en mindre virksomhed. Lad os finde ud af, hvordan jeg kan hjælpe dig."
-        jsonLd={addJsonLd}
-      />
+    <Layout
+      seo={{
+        title: "Freelance webudvikling til mindre projekter og startups.",
+        description:
+          "Udvikling og design af din hjemmeside, uanset om du er en enkeltperson, startup eller en mindre virksomhed. Lad os finde ud af, hvordan jeg kan hjælpe dig.",
+        jsonLd: addJsonLd,
+      }}
+    >
       <Hero
         renderTitle={() =>
           "Freelance webudvikling til mindre projekter og startups."
