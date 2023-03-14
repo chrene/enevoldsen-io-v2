@@ -1,9 +1,10 @@
 export default function handler(req: any, res: any) {
   res.send(`
-    # Allow all crawlers
-    User-agent: *
-    Allow: /
+  User-agent: *
 
+    Disallow: /*?ref=https://githubhelp.com
+    Disallow: /*?ref=https://giter.club
+    
     Sitemap: https://enevoldsen.io/sitemap.xml
   `);
 }
