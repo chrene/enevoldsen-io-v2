@@ -1,5 +1,13 @@
 import Head from "next/head";
-import CanonicalURL from "./canonical";
+import { usePathname } from "next/navigation";
+
+export function CanonicalURL() {
+  const siteUrl = "https://enevoldsen.io";
+  const pathname = usePathname();
+  const canonicalUrl = `${siteUrl}` + (pathname === "/" ? "" : pathname);
+
+  return <link rel="canonical" href={canonicalUrl} />;
+}
 
 export function SEO({
   title,

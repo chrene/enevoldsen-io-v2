@@ -3,6 +3,7 @@ import Hero from "@/components/hero";
 import Layout from "@/components/layout";
 import PersonalProjects from "@/components/personal";
 import SEO from "@/components/seo";
+
 import Services from "@/components/services";
 
 export default function Home() {
