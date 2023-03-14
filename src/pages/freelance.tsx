@@ -23,10 +23,6 @@ export default function FreelancePage() {
           "https://twitter.com/chrsapp",
           "https://github.com/chrene"
         ],
-        "hasOccupation": {
-          "@type": "Occupation",
-          "name": "Webudvikler"
-        },
         "knowsAbout": [
           "Web design",
           "Web udvikling",
