@@ -7,11 +7,110 @@ import SEO from "@/components/seo";
 import Services from "@/components/services";
 
 export default function FreelancePage() {
+  function addJsonLd() {
+    return {
+      __html: `
+    {
+      "@context": "https://schema.org/",
+      "@type": "Person",
+      "name": "Freelance Webudvikling",
+      "jobTitle": "Webudvikler",
+      "description": "Jeg tilbyder webudviklings- og designløsninger på freelancebasis, og jeg er klar til at hjælpe dig med dit projekt.",
+      "url": "https://enevoldsen.io/freelance",
+      "sameAs": [
+        "https://www.linkedin.com/in/christianenevoldsen/",
+        "https://twitter.com/chrsapp",
+        "https://github.com/chrene",
+      ],
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "Webudvikler"
+      },
+      "knowsAbout": [
+        "Web design",
+        "Web udvikling",
+        "Web teknisk rådgivning",
+        "Product management"
+      ],
+      "additionalName": "Small business and startups",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Freelance"
+      },
+      "worksOn": [
+        {
+          "@type": "Project",
+          "name": "YourLocal App",
+          "url": "https://yourlocal.org/",
+          "description": "En app, der hjælper dig med at finde gode tilbud på mad der alligevel skal smides ud fra dine lokale butikker og restauranter.",
+          "startDate": "2016-01",
+          "endDate": "2020-02",
+          "programmingLanguage": ["Angular", "Ionic", "NodeJS"],
+          "database": "PostgreSQL",
+          "contributor": [
+            {
+              "@type": "Person",
+              "name": "Freelance Webudvikling"
+            }
+          ]
+        },
+        {
+          "@type": "Project",
+          "name": "LuggageHero App",
+          "url": "https://luggagehero.com/",
+          "description": "En platform, der hjælper rejsende med at få opbevaret deres bagage sikkert, nemt og billigt i samarbejde med en række af butikker og hoteller.",
+          "startDate": "2019-08",
+          "endDate": "2019-10",
+          "programmingLanguage": ["Angular", "Ionic", "Nx Workspace"],
+          "contributor": [
+            {
+              "@type": "Person",
+              "name": "Freelance Webudvikling"
+            }
+          ]
+        },
+        {
+          "@type": "Project",
+          "name": "Energiteknik Lolland",
+          "url": "https://energitekniklolland.dk/",
+          "description": "En hjemmeside for en virksomhed, der tilbyder energirådgivning og energibesparelser.",
+          "startDate": "2022-08",
+          "endDate": "2022-10",
+          "programmingLanguage": ["Webflow"],
+          "contributor": [
+            {
+              "@type": "Person",
+              "name": "Freelance Webudvikling"
+            }
+          ]
+        },
+        {
+          "@type": "Project",
+          "name": "Klaskefar",
+          "url": "https://klaskefar.dk/", 
+          "description": "En hjemmeside til en freestyle rapper fra København.",
+          "startDate": "2022-01",
+          "endDate": "2022-04",
+          "programmingLanguage": ["NextJS", "React", "TailwindCSS"],
+          "contributor": [
+            {
+              "@type": "Person",
+              "name": "Freelance Webudvikling"
+            }
+          ]
+        },
+      ]
+    }
+    `,
+    };
+  }
+
   return (
     <Layout>
       <SEO
         title="Freelance webudvikling til mindre projekter og startups."
         description="Udvikling og design af din hjemmeside, uanset om du er en enkeltperson, startup eller en mindre virksomhed. Lad os finde ud af, hvordan jeg kan hjælpe dig."
+        jsonLd={addJsonLd}
       />
       <Hero
         renderTitle={() =>
