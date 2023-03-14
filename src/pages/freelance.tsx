@@ -3,20 +3,16 @@ import Hero from "@/components/hero";
 import Layout from "@/components/layout";
 import PersonalProjects from "@/components/personal";
 import ProfessionalProjects from "@/components/professional";
+import SEO from "@/components/seo";
 import Services from "@/components/services";
-import Head from "next/head";
 
 export default function FreelancePage() {
   return (
     <Layout>
-      <Head>
-        <title>Freelance webudvikling til mindre projekter og startups.</title>
-        <meta
-          name="description"
-          content="Udvikling og design af din hjemmeside, uanset om du er en enkeltperson, startup eller en mindre virksomhed. Lad os finde ud af, hvordan jeg kan hjælpe dig."
-        />
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      </Head>
+      <SEO
+        title="Freelance webudvikling til mindre projekter og startups."
+        description="Udvikling og design af din hjemmeside, uanset om du er en enkeltperson, startup eller en mindre virksomhed. Lad os finde ud af, hvordan jeg kan hjælpe dig."
+      />
       <Hero
         renderTitle={() =>
           "Freelance webudvikling til mindre projekter og startups."

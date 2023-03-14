@@ -2,21 +2,17 @@ import About, { AboutDescription, AboutTitle } from "@/components/about";
 import Hero from "@/components/hero";
 import Layout from "@/components/layout";
 import PersonalProjects from "@/components/personal";
+import SEO from "@/components/seo";
 import Services from "@/components/services";
-import Head from "next/head";
 
 export default function Home() {
   return (
     <Layout>
-      <Head>
-        <title>Passioneret webdesigner og udvikler</title>
-        <meta
-          name="description"
-          content="Christian Enevoldsen - En teknologi-entusiast, udvikler og webdesigner
+      <SEO
+        title="Passioneret webdesigner og udvikler"
+        description="Christian Enevoldsen - En teknologi-entusiast, udvikler og webdesigner
           med ekspertise inden for design, udvikling og implementering."
-        />
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      </Head>
+      />
       <Hero
         renderTitle={() => <>Web designer og udvikler</>}
         renderDescription={() => (
